@@ -32,6 +32,7 @@ public class KayakLogin extends Base {
 		
 		WebElement triptype=driver.findElement(By.className("wIIH-fake-select"));
 		triptype.click();
+		System.out.println("selecting trip types");
 		
 		Select select=new Select(triptype);
 		select.selectByIndex(0);
