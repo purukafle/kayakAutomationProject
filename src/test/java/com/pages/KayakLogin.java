@@ -35,6 +35,7 @@ public class KayakLogin extends Base {
 		
 		Select select=new Select(triptype);
 		select.selectByIndex(0);
+		System.out.println("I am here");
 		myLibGS.customWait(5);
 		
 		return this;
