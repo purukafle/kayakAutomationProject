@@ -8,8 +8,8 @@
           <include name="afterAllTest"/>
           <include name="beforeAllTest"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
           <include name="gotoKayakPage"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- com.test.KayakPageTests -->
     </classes>
